@@ -55,8 +55,9 @@ src/
 │ │ │ └── layout.js
 │ │ └──
 │ ├── components/ # 전역에서 사용되는 재사용 가능한 컴포넌트
+│ │  └── layout.js  
 │ ├── api/ # 전역에서 사용되는 api
 │ ├── store/ # 전역 상태 관리 (예: Context API, Redux, recoil, zustand 등)
-│ ├── styles/ # 전역 스타일
-│ └── lib/ # 사용되는 라이브러리리
+│ └──styles/ # 전역 스타일
+└── lib/ # 사용되는 라이브러리리
 ```

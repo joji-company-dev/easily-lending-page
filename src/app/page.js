@@ -1,7 +1,9 @@
-import Image from "next/image";
+"use client"
+
+import Hero from "./features/easilyMain/hero";
 
 export default function Home() {
   return (
-    <h1>이즐리 렌딩 페이지</h1>
+      <Hero />
   );
 }
