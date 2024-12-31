@@ -6,13 +6,13 @@ import {
   CardHeader,
   CardTitle,
   CardContent,
-} from "@/app/components/ui/card";
-import { Skeleton } from "@/app/components/ui/skeleton";
+} from "@/app/_components/ui/card";
+import { Skeleton } from "@/app/_components/ui/skeleton";
 import {
   TypographyH1,
   TypographyH2,
   TypographyP,
-} from "@/app/components/ui/typography";
+} from "@/app/_components/ui/typography";
 
 /**
  * @typedef {Object} posts
