@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/app/components/ui/button";
-import { Card } from "@/app/components/ui/card";
+import { Button } from "@/app/_components/ui/button";
+import { Card } from "@/app/_components/ui/card";
 
 export default function Hero() {
   return (
