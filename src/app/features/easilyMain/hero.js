@@ -24,7 +24,13 @@ export default function Hero() {
             size="lg"
             className="bg-[#FF6B2B] text-white hover:bg-[#e55a1f]"
           >
-            <Link href="/start">기획안 만들기</Link>
+            <a
+              href="https://easily-dashboard.jojicompany.com/dashboard/proposal/create"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              기획안 만들기
+            </a>
           </Button>
         </div>
 
