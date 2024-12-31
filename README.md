@@ -1,6 +1,6 @@
 # 이즐리 렌딩페이지 프로젝트
 
-Next.js 기반 이즐리 렌딩페이지 프로젝트입니다다
+Next.js 기반 이즐리 렌딩페이지 프로젝트입니다
 
 ## 유의 사항
 
@@ -34,6 +34,7 @@ Next.js 기반 이즐리 렌딩페이지 프로젝트입니다다
 - [`refactor`] : 기존의 코드를 개선하고자 하는 작업을 할때 사용합니다. (e.g. `refactor: 컴포넌트 이름 변경` )
 - [`config`] : 프로젝트 또는 프레임워크에 대한 설정 작업을 할때 사용합니다. (e.g. `config: tailwind theme 설정 추가` )
 
+### 프로젝트 구조도
 ```bash
 EasilyProject/
 src/
@@ -50,8 +51,8 @@ src/
 │ │ │ └── pages/ # 게시판 관련 페이지
 │ │ │  
 │ | ├── easilyMain/ # app 라우팅
-│ │ │ ├── page.tsx # features 내부의 pages와 연결
-│ │ │ └── layout.tsx
+│ │ │ ├── page.js # features 내부의 pages와 연결
+│ │ │ └── layout.js
 │ │ └──
 │ ├── components/ # 전역에서 사용되는 재사용 가능한 컴포넌트
 │ ├── api/ # 전역에서 사용되는 api
